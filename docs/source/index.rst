@@ -1,22 +1,9 @@
-Welcome to Lumache's documentation!
-===================================
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
-
-.. toctree::
-
-   usage
-   api
+DDoS Mitigation
+In the digital landscape, the ever-evolving threat of Distributed Denial of Service (DDoS) attacks poses a significant challenge for organizations worldwide. To combat this menace, we are thrilled to present our robust and efficient DDoS mitigation software, developed using the power of the `Go programming language <https://go.dev/>`_. This cutting-edge solution leverages `GoFlow2 <https://github.com/netsampler/goflow2>`_, an open-source project, to provide comprehensive protection against DDoS attacks.
+At the heart of our software lies a sophisticated database management system, `MySQL <https://www.mysql.com/>`_, which enhances the scalability and reliability of our mitigation capabilities. Additionally, we have seamlessly integrated our software with `GoBGP <https://github.com/osrg/gobgp>`_, a client software, enabling remote connectivity and optimizing network routing strategies for enhanced security and performance.
+Key Features:
+   Powerful DDoS Mitigation: Our software employs advanced algorithms and intelligent heuristics to detect and mitigate DDoS attacks in real-time. By leveraging the robustness of the Go language, we have built a high-performance system capable of handling large-scale attacks with minimal impact on legitimate traffic.
+   GoFlow2 Integration: We have integrated GoFlow2, a versatile open-source solution, to enhance our software's network visibility and flow monitoring capabilities. This integration enables granular analysis of traffic patterns, ensuring swift identification and response to potential threats.
+   Seamless MySQL Database Management: Leveraging the proven reliability and scalability of MySQL, our software efficiently manages large volumes of network data. This ensures quick access to crucial information, enabling rapid response times and effective DDoS mitigation strategies.
+   Remote Connectivity with GoBGP: Our software establishes a seamless connection with GoBGP, a powerful client software, enabling intelligent network routing decisions. This integration facilitates efficient traffic redirection during DDoS attacks, optimizing network performance while mitigating potential vulnerabilities.
+   Comprehensive Reporting and Analysis: Our software provides comprehensive reports and analytics, empowering network administrators with valuable insights into attack patterns, traffic trends, and mitigation effectiveness. This information facilitates proactive decision-making and continuous improvement of security measures.
