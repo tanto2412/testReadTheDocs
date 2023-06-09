@@ -8,3 +8,15 @@ Key Features:
    - Seamless MySQL Database Management: Leveraging the proven reliability and scalability of MySQL, our software efficiently manages large volumes of network data. This ensures quick access to crucial information, enabling rapid response times and effective DDoS mitigation strategies.
    - Remote Connectivity with GoBGP: Our software establishes a seamless connection with GoBGP, a powerful client software, enabling intelligent network routing decisions. This integration facilitates efficient traffic redirection during DDoS attacks, optimizing network performance while mitigating potential vulnerabilities.
    - Comprehensive Reporting and Analysis: Our software provides comprehensive reports and analytics, empowering network administrators with valuable insights into attack patterns, traffic trends, and mitigation effectiveness. This information facilitates proactive decision-making and continuous improvement of security measures.
+
+.. toctree::
+   :maxdepth: 2
+
+   account
+   ip_statistics
+   users
+   manual_rules
+   active_rules
+   static_actions
+   thresholds
+   settings
