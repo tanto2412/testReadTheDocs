@@ -9,6 +9,8 @@ Key Features:
    - Remote Connectivity with GoBGP: Our software establishes a seamless connection with GoBGP, a powerful client software, enabling intelligent network routing decisions. This integration facilitates efficient traffic redirection during DDoS attacks, optimizing network performance while mitigating potential vulnerabilities.
    - Comprehensive Reporting and Analysis: Our software provides comprehensive reports and analytics, empowering network administrators with valuable insights into attack patterns, traffic trends, and mitigation effectiveness. This information facilitates proactive decision-making and continuous improvement of security measures.
 
+Contents
+--------
 .. toctree::
    :maxdepth: 2
 
