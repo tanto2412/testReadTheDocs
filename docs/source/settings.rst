@@ -59,6 +59,7 @@ This setting is for configuring how the Sflow data received and shown.
 | Interval | 10000       | Interval to refresh IP Statistics page       |
 +----------+-------------+----------------------------------------------+
 
+.. _connectionlimit:
 
 Connection Limits
 -----------------
