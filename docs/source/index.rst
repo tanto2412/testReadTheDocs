@@ -7,6 +7,7 @@ In the digital landscape, the ever-evolving threat of Distributed Denial of Serv
 At the heart of our software lies a sophisticated database management system, `MySQL <https://www.mysql.com/>`_, which enhances the scalability and reliability of our mitigation capabilities. Additionally, we have seamlessly integrated our software with `GoBGP <https://github.com/osrg/gobgp>`_, a client software, enabling remote connectivity and optimizing network routing strategies for enhanced security and performance.
 
 Key Features:
+
    - Powerful DDoS Mitigation: Our software employs advanced algorithms and intelligent heuristics to detect and mitigate DDoS attacks in real-time. By leveraging the robustness of the Go language, we have built a high-performance system capable of handling large-scale attacks with minimal impact on legitimate traffic.
    - GoFlow2 Integration: We have integrated GoFlow2, a versatile open-source solution, to enhance our software's network visibility and flow monitoring capabilities. This integration enables granular analysis of traffic patterns, ensuring swift identification and response to potential threats.
    - Seamless MySQL Database Management: Leveraging the proven reliability and scalability of MySQL, our software efficiently manages large volumes of network data. This ensures quick access to crucial information, enabling rapid response times and effective DDoS mitigation strategies.
