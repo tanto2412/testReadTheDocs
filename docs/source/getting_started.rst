@@ -9,6 +9,7 @@ Creating an account
 -------------------
 
 To begin using the website, users must create an account. Follow these steps to create a new account:
+
   1. Navigate to the `website's homepage <https://bgp.m2mbeta.com/>`_.
   2. Click on the "Sign up" button on the top right.
   3. Fill out the registration form with the required information.
