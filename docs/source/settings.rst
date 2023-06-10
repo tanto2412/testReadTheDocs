@@ -19,9 +19,13 @@ This setting is for configuring the parameters of the MySQL database.
 | Field    | Sample Data | Description         |
 +==========+=============+=====================+
 | DB Name  | test        | MySQL database name |
++----------+-------------+---------------------+
 | Host     | localhost   | MySQL hostname      |
++----------+-------------+---------------------+
 | Port     | 3306        | MySQL port          |
++----------+-------------+---------------------+
 | Username | root        | MySQL username      |
++----------+-------------+---------------------+
 | Password | root        | MySQL password      |
 +----------+-------------+---------------------+
 
