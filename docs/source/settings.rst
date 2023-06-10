@@ -4,6 +4,7 @@ Settings
 Website Name
 ------------
 This setting is for changing the name of the website's name and title.
+
 +---------------+-----------------+-------------------------------+
 | Field         | Sample Data     | Description                   |
 +===============+=================+===============================+
@@ -13,6 +14,7 @@ This setting is for changing the name of the website's name and title.
 Database Settings
 -----------------
 This setting is for configuring the parameters of the MySQL database.
+
 +----------+-------------+---------------------+
 | Field    | Sample Data | Description         |
 +==========+=============+=====================+
@@ -26,6 +28,7 @@ This setting is for configuring the parameters of the MySQL database.
 SMTP Settings
 -------------
 This setting is for configuring the SMTP used for sending email after registration.
+
 +----------+------------------+------------------------------+
 | Field    | Sample Data      | Description                  |
 +==========+==================+==============================+
@@ -39,6 +42,7 @@ This setting is for configuring the SMTP used for sending email after registrati
 Reports Settings
 ----------------
 This setting is for configuring how the Sflow data received and shown.
+
 +----------+-------------+----------------------------------------------+
 | Field    | Sample Data | Description                                  |
 +==========+=============+==============================================+
