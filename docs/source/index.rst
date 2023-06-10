@@ -26,7 +26,7 @@ Contents
    :maxdepth: 2
 
    getting_started
-   ip_statistics
+   main_features
    users
    manual_rules
    active_rules
