@@ -95,7 +95,7 @@ Step-by-step instructions:
       - block specific packet lengths
       - limit the packet rate
     d. Lastly, enable or disable the static action and click "Add" button on the top right.
-    
+
     .. note::
         If the user wants to edit or delete the static action created, use the edit/delete button at the *area number 2 in the picture above*.
 
@@ -107,4 +107,7 @@ Step-by-step instructions:
 
         Active Rules
     
-    b. If there are thresholds triggered, it will create the active rule (BGP rule) based on the static actions 
+    b. User can edit/delete the BGP rule from the edit/delete button at the *area number 1 in the picture above*.
+
+    .. note::
+        This dashboard will show which active rules are currently created from the threshold triggers.
