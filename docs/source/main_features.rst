@@ -21,16 +21,16 @@ How to access:
   - Log in to your account.
   - From the dashboard, navigate to the "Manual Rules" section.
 
-.. figure:: images/manual-rules.png
-    :align: center
-
-    Manual Rules
-
 Actions available:
   - Add a BGP rule
   - View current BGP neighbors
   - Filter BGP rules based on destination IP address
   - Edit a BGP rule
+
+.. figure:: images/manual-rules.png
+    :align: center
+
+    Manual Rules
 
 Automatic BGP Rules
 -------------------
@@ -40,6 +40,12 @@ Step-by-step instructions:
   1. Log in to your account.
   2. Define a threshold:
     a. Navigate to "Thresholds" section.
+
+.. figure:: images/manual-rules.png
+    :align: center
+
+    Manual Rules
+
   3. Define a static action:
     a. Navigate to "Static Actions" section.
   4. Check the active rules:
