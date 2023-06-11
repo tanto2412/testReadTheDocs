@@ -1,7 +1,7 @@
 Users
 ======
 
-This feature enables admins to manage users. Admin can access this feature by navigating to "Users" section.
+This feature enables admins to manage users. Admin can access this feature by navigating to **Users** section.
 
 Admins can:
   - activate/deactivate users

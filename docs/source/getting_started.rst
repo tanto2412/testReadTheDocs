@@ -17,4 +17,4 @@ Follow these steps to create a new account:
 
 Navigating the website
 ----------------------
-First, users need to log in using their registered account. "Log In" button is on the top right of the home page. Once logged in, the website presents a dashboard with various sections and menus. This section explains the main elements of the user interface and how to navigate through the website effectively.
+First, users need to log in using their registered account. **Log In** button is on the top right of the home page. Once logged in, the website presents a dashboard with various sections and menus.

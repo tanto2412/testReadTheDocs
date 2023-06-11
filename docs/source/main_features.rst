@@ -7,7 +7,7 @@ This feature enables users to monitor Sflow IP statistics and track BGP server's
 
 How to access:
   - Log in to your account.
-  - From the dashboard, navigate to the "IP Statistics" section.
+  - From the dashboard, navigate to the **IP Statistics** section.
 
 Actions available:
   - Filter the IP Statistics by UDP Source Ports, UDP Destination Ports, and Unique Connection Threshold in the Settings section, :ref:`connection-limit` part.
@@ -19,7 +19,7 @@ This feature allows users to manually push BGP configurations easily.
 
 How to access:
   - Log in to your account.
-  - From the dashboard, navigate to the "Manual Rules" section.
+  - From the dashboard, navigate to the **Manual Rules** section.
 
 Actions available:
   - Add a BGP rule
@@ -53,14 +53,14 @@ There are two kinds of thresholds:
 Step-by-step instructions:
   1. Log in to your account.
   2. Define a threshold:
-    a. Navigate to "Thresholds" section.
+    a. Navigate to **Thresholds** section.
 
     .. figure:: images/thresholds.png
         :align: center
 
         Thresholds
 
-    b. Add a new threshold using the button "Add Threshold" (*area number 1 in the picture above*). This will open up an "Add Threshold" modal.
+    b. Add a new threshold using the **Add Threshold** button (*area number 1 in the picture above*). This will open up an **Add Threshold** modal.
     c. In the modal, choose which threshold to add, Packet Limit threshold or Connection Limit threshold.
     d. Define:
       - for Connection Limit threshold: which IP address, IP protocol, source port, and destination port to monitor.
@@ -68,7 +68,7 @@ Step-by-step instructions:
     e. Choose a static action to execute when the threshold is triggered, if no static action defined yet, skip to step no. 3 first.
     f. Define how long the action should be executed in the time limit.
     g. Define an additional filter to be pushed along with the static action when the threshold is triggered.
-    h. Lastly, enable or disable the threshold, and click the blue "Add" button.
+    h. Lastly, enable or disable the threshold, and click the blue **Add** button.
 
     .. note::
         If the user wants to edit or delete the threshold created, use the edit/delete button at the *area number 2 in the picture above*.
@@ -76,14 +76,14 @@ Step-by-step instructions:
         Filter the Connection Limit threshold or Packet Limit threshold using the filter in *area number 3 in the picture above*.
 
   3. Define a static action:
-    a. Navigate to "Static Actions" section.
+    a. Navigate to **Static Actions** section.
 
     .. figure:: images/static-actions.png
         :align: center
 
         Static Actions
 
-    b. Add a new static action using the button "Add Static Action" (*area number 1 in the picture above*). This will open up a "Static Action" modal.
+    b. Add a new static action using the **Add Static Action** button (*area number 1 in the picture above*). This will open up a **Add Static Action** modal.
     c. In the modal, define the actions (BGP rule) to be taken when a threshold is triggered. The actions available are:
       - block all UDP ports
       - block all TCP ports
@@ -94,13 +94,13 @@ Step-by-step instructions:
       - block specific TCP destination ports
       - block specific packet lengths
       - limit the packet rate
-    d. Lastly, enable or disable the static action and click "Add" button on the top right.
+    d. Lastly, enable or disable the static action and click **Add** button on the top right.
 
     .. note::
         If the user wants to edit or delete the static action created, use the edit/delete button at the *area number 2 in the picture above*.
 
   4. Check the active rules:
-    a. Navigate to "Active Rules" section.
+    a. Navigate to **Active Rules** section.
 
     .. figure:: images/active-rules.png
         :align: center
