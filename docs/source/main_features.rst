@@ -21,8 +21,24 @@ How to access:
   - Log in to your account.
   - From the dashboard, navigate to the "Manual Rules" section.
 
+Actions available:
+  - Add a BGP rule
+  - View current BGP neighbors
+  - Filter BGP rules based on destination IP address
+  - Edit a BGP rule
+
 .. image:: images/manual-rules.png
     :align: center
 
-Active Rules
+Automatic BGP Rules
 ------------
+This feature allows users to define a threshold that will automatically push BGP configurations if the threshold is triggered.
+
+Step-by-step instructions:
+  1. Log in to your account.
+  2. Define a threshold:
+    a. Navigate to "Thresholds" section.
+  3. Define a static action:
+    a. Navigate to "Static Actions" section.
+  4. Check the active rules:
+    a. Navigate to "Active Rules" section.
