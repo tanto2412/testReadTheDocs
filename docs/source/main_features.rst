@@ -41,10 +41,10 @@ Step-by-step instructions:
   2. Define a threshold:
     a. Navigate to "Thresholds" section.
 
-.. figure:: images/manual-rules.png
-    :align: center
+    .. figure:: images/manual-rules.png
+        :align: center
 
-    Manual Rules
+        Manual Rules
 
   3. Define a static action:
     a. Navigate to "Static Actions" section.
