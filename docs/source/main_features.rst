@@ -11,9 +11,11 @@ How to access:
 
 Actions available:
   - Filter the IP Statistics by UDP Source Ports, UDP Destination Ports, and Unique Connection Threshold in the Settings section, :ref:`connection-limit` part.
+
 .. image:: ../images/search-box.png
     :align: center
     :target: search_
+
   - View unfiltered IP Statistics by typing the destination IP address in the search box.
 
 Manual BGP Rules
