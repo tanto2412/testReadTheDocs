@@ -30,8 +30,9 @@ Actions available:
 .. image:: images/manual-rules.png
     :align: center
 
+
 Automatic BGP Rules
-------------
+-------------------
 This feature allows users to define a threshold that will automatically push BGP configurations if the threshold is triggered.
 
 Step-by-step instructions:
