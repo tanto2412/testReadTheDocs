@@ -69,6 +69,7 @@ Step-by-step instructions:
     f. Define how long the action should be executed in the time limit.
     g. Define an additional filter to be pushed along with the static action when the threshold is triggered.
     h. Lastly, enable or disable the threshold, and click the blue "Add" button.
+
     .. note::
         If the user wants to edit or delete the threshold created, use the edit/delete button at the *area number 2 in the picture above*.
     .. note::
@@ -94,6 +95,7 @@ Step-by-step instructions:
       - block specific packet lengths
       - limit the packet rate
     d. Lastly, enable or disable the static action and click "Add" button on the top right.
+    
     .. note::
         If the user wants to edit or delete the static action created, use the edit/delete button at the *area number 2 in the picture above*.
 
