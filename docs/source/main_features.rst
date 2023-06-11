@@ -10,8 +10,8 @@ How to access:
   - From the dashboard, navigate to the "IP Statistics" section.
 
 Actions available:
-  - Filter the IP Statistics by UDP Source Ports, UDP Destination Ports, and Unique Connection Threshold in the Settings section, `Connection Limit <connectionlimit_>`_ part.
-  - View unfiltered IP Statistics by typing the destination IP address in the search box.
+  - Filter the IP Statistics by UDP Source Ports, UDP Destination Ports, and Unique Connection Threshold in the Settings section, `Connection Limits <Connection Limits_>`_ part.
+  - View unfiltered IP Statistics by typing the destination IP address in the search box. `Active Rules <Active Rules_>`_
 
 Manual BGP Rules
 ----------------
