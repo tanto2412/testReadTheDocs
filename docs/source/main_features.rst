@@ -21,8 +21,10 @@ How to access:
   - Log in to your account.
   - From the dashboard, navigate to the "Manual Rules" section.
 
-.. image:: images/manual-rules.png
+.. figure:: images/manual-rules.png
     :align: center
+
+    Manual Rules
 
 Actions available:
   - Add a BGP rule
