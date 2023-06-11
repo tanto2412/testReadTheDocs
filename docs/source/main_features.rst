@@ -21,15 +21,14 @@ How to access:
   - Log in to your account.
   - From the dashboard, navigate to the "Manual Rules" section.
 
+.. image:: images/manual-rules.png
+    :align: center
+
 Actions available:
   - Add a BGP rule
   - View current BGP neighbors
   - Filter BGP rules based on destination IP address
   - Edit a BGP rule
-
-.. image:: images/manual-rules.png
-    :align: center
-
 
 Automatic BGP Rules
 -------------------
