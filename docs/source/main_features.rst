@@ -52,19 +52,39 @@ Step-by-step instructions:
 
         Thresholds
 
-    b. Add a new threshold using the button "Add Threshold" (*red square number 1 in the picture above*). This will open up an "Add Threshold" modal.
+    b. Add a new threshold using the button "Add Threshold" (*area number 1 in the picture above*). This will open up an "Add Threshold" modal.
     c. In the modal, choose which threshold to add, Packet Limit threshold or Connection Limit threshold.
     d. Define:
       - for Connection Limit threshold: which IP address, IP protocol, source port, and destination port to monitor.
       - for Packet Limit threshold: which IP address and packet length to monitor.
-    e. Choose a Static Action to execute when the threshold is triggered.
+    e. Choose a static action to execute when the threshold is triggered, if no static action defined yet, skip to step no. 3 first.
     f. Define how long the action should be executed in the time limit.
-    g. Define an additional filter to be pushed along with the Static Action when the threshold is triggered.
+    g. Define an additional filter to be pushed along with the static action when the threshold is triggered.
     h. Lastly, enable or disable the threshold, and click the blue "Add" button.
-    i. The modal will close, and if the user wants to edit or delete the threshold created, use the edit/delete button at the *red square number 2 in the picture above*.
-    j. Filter the Connection Limit threshold or Packet Limit threshold using the filter in *red square number 3 in the picture above*.
+    i. The modal will close, and if the user wants to edit or delete the threshold created, use the edit/delete button at the *area number 2 in the picture above*.
+    j. Filter the Connection Limit threshold or Packet Limit threshold using the filter in *area number 3 in the picture above*.
 
   3. Define a static action:
     a. Navigate to "Static Actions" section.
+
+    .. figure:: images/static-actions.png
+        :align: center
+
+        Static Actions
+
+    b. Add a new static action using the button "Add Static Action" (*area number 1 in the picture above*). This will open up a "Static Action" modal.
+    c. In the modal, define the actions (BGP rule) to be taken when a threshold is triggered. The actions available are:
+      - block all UDP ports
+      - block all TCP ports
+      - block all ICMP ports
+      - block specific UDP source ports
+      - block specific TCP source ports
+      - block specific UDP destination ports
+      - block specific TCP destination ports
+      - block specific packet lengths
+      - limit the packet rate
+    d. Lastly, enable or disable the static action and click "Add" button on the top right.
+    e. The modal will close, and if the user wants to edit or delete the static action created, use the edit/delete button at the *area number 2 in the picture above*.
+
   4. Check the active rules:
     a. Navigate to "Active Rules" section.
