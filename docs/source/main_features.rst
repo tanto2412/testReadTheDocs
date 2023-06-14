@@ -97,7 +97,7 @@ Step-by-step instructions:
 
     b. Add a new threshold using the **Add Threshold** button (*area number 1 in the picture above*). This will open up an **Add Threshold** modal.
     c. Select the threshold: **Packet Tracking** or **Connection Limit**
-    c. Fill the fields in the modal:
+    d. Fill the fields in the modal:
 
       For **Connection Limit**:
 
@@ -153,7 +153,7 @@ Step-by-step instructions:
       | Enable              | Enabled/Disabled | Enable/disable this threshold                                                                                 |
       +---------------------+------------------+---------------------------------------------------------------------------------------------------------------+
 
-    d. Click the blue **Add** button.
+    e. Click the blue **Add** button.
 
     .. note::
         If the user wants to edit or delete the threshold created, use the edit/delete button at the *area number 2 in the picture above*.
