@@ -16,7 +16,7 @@ Actions available:
 Manual BGP Rules
 ----------------
 Manual rules will be specific custom tailored rules by the user to create custom BGP Flowspec filters. This feature allows users to manually push BGP configurations easily. The following fields will be
-accepted. It complies with `IANA Flowspec Component Types <https://www.iana.org/assignments/flow-spec/flow-spec.xhtml>`_
+accepted. It complies with `IANA Flowspec Component Types <https://www.iana.org/assignments/flow-spec/flow-spec.xhtml>`_.
 
 +--------------------+-----------------+--------------------------------------------+
 | Field              | Sample Data     | Description                                |
@@ -45,7 +45,7 @@ accepted. It complies with `IANA Flowspec Component Types <https://www.iana.org/
 +--------------------+-----------------+--------------------------------------------+
 | DSCP               | number          | Number of DSCP.                            |
 +--------------------+-----------------+--------------------------------------------+
-| Fragment Encoding  | -               | Not supported at the moment.               |
+| Fragment Encoding  |                 | Not supported at the moment.               |
 +--------------------+-----------------+--------------------------------------------+
 | Rate Limit         | number          | Maximum packets limited for this BGP rule. |
 +--------------------+-----------------+--------------------------------------------+
@@ -120,7 +120,7 @@ Step-by-step instructions:
       +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
       | Static Actions                            | selection                                   | *Required*. The static actions to be executed if the threshold is triggered.                                  |
       +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
-      | Additional Filter                         | -                                           | *Optional*. See `Link <Manual BGP Rules_>_` for the description of fields.                                    |
+      | Additional Filter                         |                                             | *Optional*. See `Link <Manual BGP Rules_>_` for the description of fields.                                    |
       +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
       | Time Limit                                | 3600                                        | *Optional*. The time before the active rule is expired (in seconds).                                          |
       +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
@@ -146,7 +146,7 @@ Step-by-step instructions:
       +---------------------+------------------+---------------------------------------------------------------------------------------------------------------+
       | Static Actions      | selection        | *Required*. The static actions to be executed if the threshold is triggered.                                  |
       +---------------------+------------------+---------------------------------------------------------------------------------------------------------------+
-      | Additional Filter   | -                | *Optional*. See `Link <Manual BGP Rules_>_` for the description of fields.                                    |
+      | Additional Filter   |                  | *Optional*. See `Link <Manual BGP Rules_>_` for the description of fields.                                    |
       +---------------------+------------------+---------------------------------------------------------------------------------------------------------------+
       | Time Limit          | 3600             | *Optional*. The time before the active rule is expired (in seconds).                                          |
       +---------------------+------------------+---------------------------------------------------------------------------------------------------------------+
