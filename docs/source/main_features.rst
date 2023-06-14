@@ -61,14 +61,23 @@ Step-by-step instructions:
         Thresholds
 
     b. Add a new threshold using the **Add Threshold** button (*area number 1 in the picture above*). This will open up an **Add Threshold** modal.
-    c. In the modal, choose which threshold to add, Packet Limit threshold or Connection Limit threshold.
-    d. Define:
-      - for Connection Limit threshold: which IP address, IP protocol, source port, and destination port to monitor.
-      - for Packet Limit threshold: which IP address and packet length to monitor.
-    e. Choose a static action to execute when the threshold is triggered, if no static action defined yet, skip to step no. 3 first.
-    f. Define how long the action should be executed in the time limit.
-    g. Define an additional filter to be pushed along with the static action when the threshold is triggered.
-    h. Lastly, enable or disable the threshold, and click the blue **Add** button.
+    c. Fill the fields in the modal:
+
+      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
+      | Field                       | Sample Data                                 | Description                                                       |
+      +=============================+=============================================+===================================================================+
+      | Interval in seconds         | 3600                                        | Sflow data retention period                                       |
+      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
+      | UDP source port             | 16,53,123,389,161,1194,1900,3283,3702,11211 | UDP source ports to be detected in the IP statistics              |
+      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
+      | UDP destination port        | 25565,25566                                 | UDP destination ports to be detected in the IP statistics         |
+      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
+      | Unique connection threshold | 300                                         | The minimum unique connections count to be shown in IP Statistics |
+      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
+      | Connection rate in seconds  | 100                                         | The period to calculate the unique connections (in seconds)       |
+      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
+
+    d. Click the blue **Add** button.
 
     .. note::
         If the user wants to edit or delete the threshold created, use the edit/delete button at the *area number 2 in the picture above*.
