@@ -61,21 +61,36 @@ Step-by-step instructions:
         Thresholds
 
     b. Add a new threshold using the **Add Threshold** button (*area number 1 in the picture above*). This will open up an **Add Threshold** modal.
+    c. Select the threshold: **Packet Tracking** or **Connection Limit**
     c. Fill the fields in the modal:
 
-      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
-      | Field                       | Sample Data                                 | Description                                                       |
-      +=============================+=============================================+===================================================================+
-      | Interval in seconds         | 3600                                        | Sflow data retention period                                       |
-      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
-      | UDP source port             | 16,53,123,389,161,1194,1900,3283,3702,11211 | UDP source ports to be detected in the IP statistics              |
-      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
-      | UDP destination port        | 25565,25566                                 | UDP destination ports to be detected in the IP statistics         |
-      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
-      | Unique connection threshold | 300                                         | The minimum unique connections count to be shown in IP Statistics |
-      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
-      | Connection rate in seconds  | 100                                         | The period to calculate the unique connections (in seconds)       |
-      +-----------------------------+---------------------------------------------+-------------------------------------------------------------------+
+      For **Connection Limit**:
+
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Field                                     | Sample Data                                 | Description                                                                                                   |
+      +===========================================+=============================================+===============================================================================================================+
+      | Destination Prefix                        | 192.168.1.0/24                              | *Optional*. If this is defined, then the threshold only track the specific destination prefix in CIDR format. |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Traffic Type                              | UDP/TCP/ICMP                                | The traffic type to be tracked.                                                                               |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Connection Rate                           | 10                                          | *Required*. The unique connections minimum required to trigger this threshold.                                |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Connection Interval                       | 100                                         | *Required*. The period which the unique connections is collected (in seconds).                                |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Source Ports                              | 16,53,123,389,161,1194,1900,3283,3702,11211 | *Optional*. The UDP source ports to be tracked, all ports will be tracked if empty.                           |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Destination Ports                         | 25565,25566                                 | *Optional*. The UDP destination ports to be tracked, all ports will be tracked if empty.                      |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Include all detected ports in Active Rule | Enabled/Disabled                            | If enabled, the ports which triggered the threshold is also included in the active rules.                     |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Static Actions                            | selection                                   | *Required*. The static actions to be executed if the threshold is triggered.                                  |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Time Limit                                | 3600                                        | *Optional*. The time before the active rule is expired (in seconds).                                          |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+      | Enable                                    | Enabled/Disabled                            | Enable/disable this threshold                                                                                 |
+      +-------------------------------------------+---------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+
+      For **Packet Limit**
 
     d. Click the blue **Add** button.
 
@@ -94,15 +109,15 @@ Step-by-step instructions:
 
     b. Add a new static action using the **Add Static Action** button (*area number 1 in the picture above*). This will open up a **Add Static Action** modal.
     c. In the modal, define the actions (BGP rule) to be taken when a threshold is triggered. The actions available are:
-      - block all UDP ports
-      - block all TCP ports
-      - block all ICMP ports
-      - block specific UDP source ports
-      - block specific TCP source ports
-      - block specific UDP destination ports
-      - block specific TCP destination ports
-      - block specific packet lengths
-      - limit the packet rate
+      - Block all UDP ports
+      - Block all TCP ports
+      - Block all ICMP ports
+      - Block specific UDP source ports
+      - Block specific TCP source ports
+      - Block specific UDP destination ports
+      - Block specific TCP destination ports
+      - Block specific packet lengths
+      - Limit the packet rate
     d. Lastly, enable or disable the static action and click **Add** button on the top right.
 
     .. note::
