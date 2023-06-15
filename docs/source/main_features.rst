@@ -73,20 +73,6 @@ Automatic BGP Rules
 -------------------
 This feature allows users to define a threshold that will automatically push BGP configurations (active rule) if the threshold is triggered. See detailed explanation on this feature in :ref:`auto-bgp-rule`.
 
-Terms:
-  - Thresholds
-    A threshold is a set of defined filters and limit to monitor the traffic, and if the traffic is above the limit, it will trigger a static action assigned to the threshold.
-  - Static Actions
-    A static action is a simplified BGP rules to be executed when a threshold limit is triggered.
-  - Active Rules
-    A set of BGP rules as a result of threshold triggered a static action.
-
-There are two kinds of thresholds:
-  - Connection Limit threshold
-      A connection limit threshold will monitor a specific destination IP address, source ports, and destination ports traffic.
-  - Packet Limit threshold
-      A packet limit threshold will monitor a specific destination IP address and packet length traffic.
-
 Step-by-step instructions:
   1. Log in to your account.
   2. Define a threshold:
@@ -198,3 +184,8 @@ Step-by-step instructions:
 
     .. note::
         This dashboard will show which active rules are currently created from the threshold triggers.
+
+API Support
+-----------
+
+A documentation of the APIs can be found in ...
