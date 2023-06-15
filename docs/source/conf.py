@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'DDoS Mitigation'
-copyright = '2021'
-author = 'Kristanto'
+copyright = 'Mind2Matter, 2021'
+author = 'Mind2Matter'
 
 release = '1.0'
 version = '1.0.0'
