@@ -1,5 +1,7 @@
-DDoS Mitigation
-===============
+Automatic BGP Rule Generation
+=============================
+
+.. _auto-bgp-rule:
 
 Overview
 --------
@@ -30,7 +32,10 @@ Contents
 
    getting_started
    main_features
-   auto_bgp_rule
    users
+   manual_rules
+   active_rules
+   static_actions
+   thresholds
    settings
    additional_resource

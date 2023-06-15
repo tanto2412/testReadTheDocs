@@ -71,7 +71,7 @@ Actions available:
 
 Automatic BGP Rules
 -------------------
-This feature allows users to define a threshold that will automatically push BGP configurations (active rule) if the threshold is triggered.
+This feature allows users to define a threshold that will automatically push BGP configurations (active rule) if the threshold is triggered. See detailed explanation on this feature in :ref:`auto-bgp-rule`.
 
 Terms:
   - Thresholds
