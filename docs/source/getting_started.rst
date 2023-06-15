@@ -1,6 +1,10 @@
 Getting Started
 ===============
 
+Installation
+------------
+See Git repositories to see how to install the DDoS Mitigation website.
+
 Accessing DDoS Migitation website
 ---------------------------------
 Users can access the website by visiting **https://bgp.m2mbeta.com/** in their web browser.

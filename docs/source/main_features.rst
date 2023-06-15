@@ -173,11 +173,11 @@ Step-by-step instructions:
       - Block all UDP ports
       - Block all TCP ports
       - Block all ICMP ports
-      - Block specific UDP source ports
-      - Block specific TCP source ports
-      - Block specific UDP destination ports
-      - Block specific TCP destination ports
-      - Block specific packet lengths
+      - Block specific UDP source ports (1 or more ports)
+      - Block specific TCP source ports (1 or more ports)
+      - Block specific UDP destination ports (1 or more ports)
+      - Block specific TCP destination ports (1 or more ports)
+      - Block specific packet lengths (1 or more packet lengths)
       - Limit the packet rate
     d. Lastly, enable or disable the static action and click **Add** button on the top right.
 
