@@ -30,11 +30,11 @@ Main Components
 
 The main components for this feature are:
   - Thresholds
-    A threshold is a set of defined filters and limit to monitor the traffic, and if the traffic is above the limit, it will trigger a static action assigned to the threshold.
+      A threshold is a set of defined filters and limit to monitor the traffic, and if the traffic is above the limit, it will trigger a static action assigned to the threshold.
   - Static Actions
-    A static action is a simplified BGP rules to be executed when a threshold limit is triggered.
+      A static action is a simplified BGP rules to be executed when a threshold limit is triggered.
   - Active Rules
-    A set of BGP rules as a result of threshold triggered a static action.
+      A set of BGP rules as a result of threshold triggered a static action.
 
 There are two kinds of thresholds:
   - Connection Limit threshold
